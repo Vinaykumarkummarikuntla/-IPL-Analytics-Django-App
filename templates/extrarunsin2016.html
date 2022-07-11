@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ipl</title>
+</head>
+<body class="m-auto">
+    <h1>Extraruns conceded by teams in year 2016</h1>
+
+
+    {% for teams in result%}
+    {{teams.batting_team}}
+    {{teams.extraruns}}
+    <br>
+    {% endfor %}
+</html>
