@@ -8,35 +8,37 @@
 
 ## Data
 
-The "data" directory contains the IPL datasets in CSV format, including:
+The **data** directory contains the IPL datasets in CSV format, including:
 
-1. matches.csv - Contains IPL match data.
-2. deliveries.csv - Contains detailed ball-by-ball data for each match.
-3. allumpire.csv - Contains information about the umpires in IPL matches.
+1. **matches.csv** - Contains IPL match data.
+2. **deliveries.csv** - Contains detailed ball-by-ball data for each match.
+3. **allumpire.csv** - Contains information about the umpires in IPL matches.
 
 ## Templates
 
-The "templates" directory contains the HTML templates used to render the web pages of the IPLapp. It includes the necessary HTML, CSS, and JavaScript files to create a visually appealing and user-friendly interface.
+The **templates** directory contains the HTML templates used to render the web pages of the IPLapp.
 
 ## Installation
 
 To run the IPLapp on your local machine, follow these steps:
 
 1. Clone the repository:
+
    `git clone https://github.com/Vinaykumarkummarikuntla/IPLapp.git`
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 
-`cd IPLapp`
+   `cd IPLapp`
 
 
-3. Install the necessary dependencies:
+4. Install the necessary dependencies:
 
-`pip install -r requirements.txt`
+    `pip install -r requirements.txt`
 
-4. Start the Django development server:
+5. Start the Django development server:
 
-`python manage.py runserver`
+     `python manage.py runserver`
 
-5. Open your web browser and access the IPLapp at [http://localhost:8000].
+5. Open your web browser and access the IPLapp at
+    [http://localhost:8000].
 
